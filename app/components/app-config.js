@@ -1,8 +1,8 @@
 const template = document.createElement('template');
 template.innerHTML = `
 <style>
-    @import "/app/css/app.css";
-    @import "/assets/css/anywhere-flex.css";
+    @import "/anywhere-ui-showcase/app/css/app.css";
+    @import "/anywhere-ui-showcase/assets/css/anywhere-flex.css";
     :host {
         display: block;
     }
@@ -172,25 +172,25 @@ template.innerHTML = `
                 <div class="grid free-themes">
                     <div class="col-3">
                         <button class="any-link" data-select-theme="anywhere-default">
-                            <img src="assets/images/themes/anywhere-default-violet.png" alt="Adaleks Violet" />
+                            <img src="/anywhere-ui-showcase/assets/images/themes/anywhere-default-violet.png" alt="Adaleks Violet" />
                         </button>
                         <span>Violet</span>
                     </div>
                     <div class="col-3">
                         <button class="any-link" data-select-theme="anywhere-default-light-purple">
-                            <img src="assets/images/themes/anywhere-light-purple.png" alt="Adaleks Light Purple" />
+                            <img src="/anywhere-ui-showcase/assets/images/themes/anywhere-light-purple.png" alt="Adaleks Light Purple" />
                         </button>
                         <span>Purple</span>
                     </div>
                     <div class="col-3">
                         <button class="any-link" data-select-theme="anywhere-default-dark-violet">
-                            <img src="assets/images/themes/anywhere-dark-violet.png" alt="Adaleks Dark Violet" />
+                            <img src="/anywhere-ui-showcase/assets/images/themes/anywhere-dark-violet.png" alt="Adaleks Dark Violet" />
                         </button>
                         <span>Violet</span>
                     </div>
                     <div class="col-3">
                         <button class="any-link" data-select-theme="anywhere-default-dark-purple">
-                            <img src="assets/images/themes/anywhere-dark-purple.png" alt="Adaleks Dark Purple" />
+                            <img src="/anywhere-ui-showcase/assets/images/themes/anywhere-dark-purple.png" alt="Adaleks Dark Purple" />
                         </button>
                         <span>Purple</span>
                     </div>
@@ -199,25 +199,25 @@ template.innerHTML = `
                 <div class="grid free-themes">
                     <div class="col-3">
                         <button class="any-link" data-select-theme="bootstrap4-light-blue">
-                            <img src="assets/images/themes/bootstrap4-light-blue.svg" alt="Bootstrap Light Blue" />
+                            <img src="/anywhere-ui-showcase/assets/images/themes/bootstrap4-light-blue.svg" alt="Bootstrap Light Blue" />
                         </button>
                         <span>Blue</span>
                     </div>
                     <div class="col-3">
                         <button class="any-link" data-select-theme="bootstrap4-light-purple">
-                            <img src="assets/images/themes/bootstrap4-light-purple.svg" alt="Bootstrap Light Purple" />
+                            <img src="/anywhere-ui-showcase/assets/images/themes/bootstrap4-light-purple.svg" alt="Bootstrap Light Purple" />
                         </button>
                         <span>Purple</span>
                     </div>
                     <div class="col-3">
                         <button class="any-link" data-select-theme="bootstrap4-dark-blue">
-                            <img src="assets/images/themes/bootstrap4-dark-blue.svg" alt="Bootstrap Dark Blue" />
+                            <img src="/anywhere-ui-showcase/assets/images/themes/bootstrap4-dark-blue.svg" alt="Bootstrap Dark Blue" />
                         </button>
                         <span>Blue</span>
                     </div>
                     <div class="col-3">
                         <button class="any-link" data-select-theme="bootstrap4-dark-purple">
-                            <img src="assets/images/themes/bootstrap4-dark-purple.svg" alt="Bootstrap Dark Purple" />
+                            <img src="/anywhere-ui-showcase/assets/images/themes/bootstrap4-dark-purple.svg" alt="Bootstrap Dark Purple" />
                         </button>
                         <span>Purple</span>
                     </div>
